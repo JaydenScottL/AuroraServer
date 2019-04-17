@@ -7,7 +7,7 @@ var Aurora = {};
 
 Aurora.returnFile = function () {
     $.ajax({
-        type:"POST",
+        type:"GET",
         url: "ServerHandler.PHP",
 
         success:function(data){
