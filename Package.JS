@@ -16,7 +16,7 @@ window.onload = function() {
 
             success:function(data){
                 alert(2);
-                alert(data+"succ"
+                alert(data + "succ");
             },
         });
     }
