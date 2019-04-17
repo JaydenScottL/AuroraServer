@@ -2,15 +2,15 @@
 //Jayden LeCorps 2019
 
 //JQuery Should be included with this file.
-alert("JS1");
+alert("J90");
 var Aurora = {};
 
 Aurora.returnFile = function () {
-    alert(32);
     $.ajax({
         type: "POST",
-        success: function () {
-            alert(1234);
+        url:"data.txt",
+        success: function (data) {
+            alert(data);
         }
     });
 }
