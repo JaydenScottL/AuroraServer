@@ -13,17 +13,12 @@ function initTest() {
         $.ajax({
             url: "ServerHandler.PHP",
             dataType:"PHP",
-            success:function(data){
-                alert("data");
+            complete: function (data) {
+            
                 alert(data);
             },
 
-
-
-            error:function(){
-                alert(1);
-            }
-        
+            
         });
     }
 
