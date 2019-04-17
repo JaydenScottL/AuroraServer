@@ -16,7 +16,7 @@ Aurora.returnFile = function () {
         },
 
         error: function (code) {
-            alert(code);
+            alert(code + "error");
         }
     });
 }
