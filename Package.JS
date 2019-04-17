@@ -6,13 +6,7 @@ alert("120j");
 var Aurora = {};
 
 Aurora.returnFile = function () {
-    $.ajax({
-        type: "POST",
-        url:"data.txt",
-        success: function (data) {
-            alert(data);
-        }
-    });
+    $.post("ServerHandler.PHP",{name:""},function(data){alert(data});
 }
 
 Aurora.returnFile();
