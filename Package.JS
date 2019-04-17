@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //Engine Source Code Version 1.0 
 //Jayden LeCorps 2019
 
@@ -11,6 +10,3 @@ Aurora.returnFile = function () {
 }
 
 Aurora.returnFile();
-=======
-
->>>>>>> f385840d921ccf394ba454ae520afa5037784aea
