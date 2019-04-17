@@ -3,8 +3,10 @@
 
 //JQuery Should be included with this file.
 
-var Connect;
+var Aurora = {};
 
-Connect.returnFile = function () {
-
+Aurora.returnFile = function () {
+    alert(1);
 }
+
+Aurora.returnFile();
