@@ -14,11 +14,15 @@ function initTest() {
             url: "ServerHandler.PHP",
             dataType:"PHP",
             complete: function (data) {
-            
+                alert("result");
                 alert(data);
             },
 
-            
+            success:function(data){
+                alert("data");
+                alert(data);
+            },
+        
         });
     }
 
