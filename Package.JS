@@ -1,8 +1,6 @@
 //Engine Source Code Version 1.0 
 //Jayden LeCorps 2019
 
-alert("43");
-
 initTest();
 
 function initTest() {
@@ -12,17 +10,15 @@ function initTest() {
     Aurora.returnFile = function () {
         $.ajax({
             url: "ServerHandler.PHP",
-            dataType:"PHP",
             complete: function (data) {
-                alert("result");
+                alert(1);
                 alert(data);
             },
 
             success:function(data){
-                alert("data");
+                alert(2);
                 alert(data);
             },
-        
         });
     }
 
