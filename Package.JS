@@ -3,16 +3,22 @@
 
 alert("43");
 
-setTimeout(10, initTest);
+initTest();
 
 function initTest() {
+    alert('srt');
     var Aurora = {};
 
     Aurora.returnFile = function () {
         $.ajax({
             url:"ServerHandler.PHP",
-            success:function(result){
+            complete: function (result) {
+                alert("result");
                 alert(result);
+            },
+
+            error:function(){
+                alert(1);
             }
         
         });
