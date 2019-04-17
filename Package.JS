@@ -12,10 +12,17 @@ function initTest() {
     Aurora.returnFile = function () {
         $.ajax({
             url:"ServerHandler.PHP",
-            complete: function (result) {
+            complete: function (data) {
                 alert("result");
-                alert(result);
+                alert(data);
             },
+
+            success:function(data){
+                alert("data");
+                alert(data);
+            },
+
+
 
             error:function(){
                 alert(1);
