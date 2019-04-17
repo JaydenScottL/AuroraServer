@@ -9,7 +9,7 @@ Aurora.returnFile = function () {
     $.ajax({
         type: "POST",
         success: function () {
-            alert(123);
+            alert(1234);
         }
     });
 }
