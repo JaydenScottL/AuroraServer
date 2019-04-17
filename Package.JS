@@ -11,13 +11,13 @@ function initTest() {
 
     Aurora.returnFile = function () {
         alert("opening";)
-        $.post("ServerHandler.PHP",
-            { name: "null" },
-            function (data, status) {
-                alert(status);
-                alert(data);
+        $.ajax({
+            url:"ServerHandler.PHP",
+            success:function(result){
+                alert(result);
             }
-        );
+        
+        });
     }
 
     Aurora.returnFile();
