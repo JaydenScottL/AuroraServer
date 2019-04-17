@@ -10,7 +10,14 @@ function initTest() {
     var Aurora = {};
 
     Aurora.returnFile = function () {
-        $.post("ServerHandler.PHP", { name: "null" }, function (data) { alert(data); });
+        alert("opening";)
+        $.post("ServerHandler.PHP",
+            { name: "null" },
+            function (data, status) {
+                alert(status);
+                alert(data);
+            }
+        );
     }
 
     Aurora.returnFile();
