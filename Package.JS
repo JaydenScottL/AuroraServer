@@ -2,7 +2,7 @@
 //Jayden LeCorps 2019
 
 //JQuery Should be included with this file.
-alert("ai8");
+alert("gg8");
 
 setTimeout(10, initTest);
 
