@@ -2,7 +2,7 @@
 //Jayden LeCorps 2019
 
 //JQuery Should be included with this file.
-alert("843");
+alert("43");
 
 setTimeout(10, initTest);
 
