@@ -18,6 +18,10 @@ window.onload = function() {
                 
                 alert(data + "succ");
             },
+
+            error: function (code) {
+                alert(code);
+            }
         });
     }
 
