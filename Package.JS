@@ -10,7 +10,7 @@ function initTest() {
     var Aurora = {};
 
     Aurora.returnFile = function () {
-        alert("opening";)
+        alert("opening");
         $.ajax({
             url:"ServerHandler.PHP",
             success:function(result){
