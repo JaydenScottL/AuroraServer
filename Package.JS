@@ -6,7 +6,7 @@ alert("JS1");
 var Aurora = {};
 
 Aurora.returnFile = function () {
-    alert(321);
+    alert(32);
     $.ajax({
         type: "POST",
         success: function () {
