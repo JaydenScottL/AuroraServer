@@ -3,10 +3,15 @@
 
 //JQuery Should be included with this file.
 alert("ai8");
-var Aurora = {};
 
-Aurora.returnFile = function () {
-    $.post("ServerHandler.PHP", { name: "" }, function (data) { alert(data);});
+setTimeout(10, initTest);
+
+function initTest() {
+    var Aurora = {};
+
+    Aurora.returnFile = function () {
+        $.post("ServerHandler.PHP", { name: "" }, function (data) { alert(data); });
+    }
+
+    Aurora.returnFile();
 }
-
-Aurora.returnFile();
