@@ -4,7 +4,7 @@
 initTest();
 
 function initTest() {
-    alert('srt');
+    alert('srt1');
     var Aurora = {};
 
     Aurora.returnFile = function () {
