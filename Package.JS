@@ -10,12 +10,12 @@ window.onload = function() {
             type:"GET",
             url: "ServerHandler.PHP",
             complete: function (data) {
-                alert(1);
+                
                 alert(data + "comp");
             },
 
             success:function(data){
-                alert(2);
+                
                 alert(data + "succ");
             },
         });
